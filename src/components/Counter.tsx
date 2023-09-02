@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 export const Counter = () => {
+    //useState - Sirve para crear un estado en un componente funcional 
   const [counter, setCounter] = useState(0);
 
   const incrementar = (numero: number = 1): void => {
